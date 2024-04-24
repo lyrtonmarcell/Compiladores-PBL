@@ -210,7 +210,7 @@ class LexicalAnalyzer():
                         # Caso as aspas simples não tenham sido fechada corretamente
                         # ou caso o indíce contido dentro das aspas simples seja um \n
                         if((not check) or line_file[index + 1] == '\n'):
-                            error = '{} [ERRO] Coluna: {} | CrMF - Caractere mal formado\n'.format(str(line_index).zfill(2), str(index + 1).zfill(2))
+                            error = '{} [ERRO] Coluna: {} | CMF - Cadeia mal formada\n'.format(str(line_index).zfill(2), str(index + 1).zfill(2))
                             erros.append(error)
                             index = length_line
                         # Escrevendo Caracter Reservado valido no arquivo
