@@ -1,0 +1,43 @@
+01|PRE algoritmo
+01|PRE principal
+01|DEL (
+01|DEL )
+01|DEL {
+02|PRE variaveis
+02|DEL {
+03|PRE real
+03|IDE f
+03|REL =
+03|NRO 3.0
+03|DEL ;
+05|IDE texto
+05|IDE msg
+05|REL =
+05|IDE teste
+06|DEL }
+07|PRE se
+07|DEL (
+07|IDE f
+07|REL >=
+07|NRO -10
+07|DEL )
+07|LOG &&
+07|DEL (
+07|IDE f
+07|REL <
+07|DEL )
+07|DEL {
+08|PRE escreva
+08|DEL (
+08|IDE mensagem
+08|DEL )
+08|DEL ;
+09|PRE escreva
+09|DEL (
+09|DEL ;
+11|DEL }
+04 [ERRO] Coluna: 02 | TMF - Token mal formado
+05 [ERRO] Coluna: 15 | CMF - Cadeia mal formada
+08 [ERRO] Coluna: 11 | CMF - Cadeia mal formada
+09 [ERRO] Coluna: 20 | CMF - Cadeia mal formada
+12 [ERRO] Coluna: 00 | CoMF - Comentario mal formado
